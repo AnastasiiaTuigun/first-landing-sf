@@ -1,0 +1,40 @@
+.font.size-header {
+    font-size: 40px;
+}
+.font.size-subheader {
+    font-size: 22px;
+}
+
+.font.size-large {
+    font-size: 28px;
+}
+.font.size-medium {
+    font-size: 21px;
+}
+.font.size-small {
+    font-size: 14px;
+}
+
+.font.family-yeseva {
+    font-family: 'Yeseva One';
+}
+
+.font.decoration-uppercase {
+    text-transform: uppercase;
+}
+.font.decoration-underline {
+    text-decoration: underline;
+}
+
+.font.color-gold {
+    color: #E3B873;
+}
+.font.color-white {
+    color: white;
+}
+.font.color-black {
+    color: black;
+}
+.font.color-grey {
+    color: #959595;
+}

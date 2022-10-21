@@ -1,0 +1,112 @@
+.page2 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+}
+.page2-section {
+    background-color: black;
+}
+.page2-body {
+    display: flex;
+    margin-bottom: 60px;
+}
+.page2-mobile {
+    display: none;
+}
+.page2-left-sidebar {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+}
+.page2-desc-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.page2-desc-container > li {
+    flex: 50%;
+}
+.page2-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-right: 50px;
+    flex: 1;
+}
+.page2-right {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+.page2-desc-box {
+    margin-bottom: 20px;
+}
+.page2-nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.page2-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.page2-footer-image {
+    background-image: url(../images/third-pic.jpg);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 100px;
+    width: 817px;
+    height: 434px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-icon {
+    z-index: 1;
+}
+
+@media screen and (max-width: 769px) {
+    .page2 {
+        display: none;
+    }
+    .page2-mobile {
+        display: flex;
+        background-color: black;
+    }
+    .page2-mobile-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 60px 0;
+    }
+    .page2-mobile-container > sub {
+        text-align: center;
+        max-width: 300px;
+        margin: 20px 0;
+    }
+    .page2-mobile-nav {
+        background: url(../images/second-pic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .page2-mobile-footer-image {
+        background-image: url(../images/third-pic.jpg);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+}

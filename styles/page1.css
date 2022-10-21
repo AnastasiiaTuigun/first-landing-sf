@@ -1,0 +1,21 @@
+.page1 {
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+.page1-section {
+    background-image: url(../images/first-pic.jpg);
+    background-size: cover;
+}
+.page1-container {
+    margin: 200px 0;
+    width: 540px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+.page1-button-box {
+    display: flex;
+}

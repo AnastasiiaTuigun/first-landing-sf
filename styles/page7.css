@@ -1,0 +1,19 @@
+.page7 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 170px 0 100px 0;
+}
+.page7-section {
+    background: url(../images/page7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page7 > h2 {
+    max-width: 500px;
+    text-align: center;
+}
+.page7 > * {
+    margin: 10px 0;
+}

@@ -1,0 +1,85 @@
+.page6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 400px;
+    position: relative;
+    color: black;
+}
+.page6-section {
+    background-image: url(../images/Frame-1.jpg);
+    background-repeat: repeat-x;
+    background-size: 800px;
+}
+.page6-ac-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.page6-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.page6 > ul > li {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.page6 > ul {
+    display: flex;
+    margin: 0 40px;
+}
+.page6-button-box {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.page6-button-box > div {
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.page6 > ul > li {
+    position: relative;
+}
+.page6-img {
+    margin-right: 20px;
+}
+.page6-modal {
+    padding: 35px 180px;
+    background: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -140px;
+    z-index: 1;
+}
+.page6-modal-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.page6-modal-item-box {
+    display: flex;
+}
+.page6-modal > * {
+    margin: 8px 0;
+}
+.page6-modal > button {
+    border-radius: 0;
+    padding: 10px 40px;
+}
+
+@media screen and (max-width: 769px) { 
+    .page6 {
+        display: none;
+    }
+}
